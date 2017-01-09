@@ -1,0 +1,6 @@
+version: '2'
+services:
+  ether-swarm-cache:
+    build: .
+    ports:
+      - "0.0.0.0:8091:8091"

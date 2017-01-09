@@ -1,0 +1,12 @@
+[submodule "vendor/github.com/ethereum/ethash"]
+	path = vendor/github.com/ethereum/ethash
+	url = https://github.com/ethereum/ethash
+[submodule "vendor/github.com/ethereum/go-ethereum"]
+	path = vendor/github.com/ethereum/go-ethereum
+	url = https://github.com/ethereum/go-ethereum
+[submodule "vendor/github.com/rcrowley/go-metrics"]
+	path = vendor/github.com/rcrowley/go-metrics
+	url = https://github.com/rcrowley/go-metrics
+[submodule "vendor/golang.org/x/crypto"]
+	path = vendor/golang.org/x/crypto
+	url = https://go.googlesource.com/crypto
