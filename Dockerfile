@@ -7,5 +7,6 @@ WORKDIR $PROJECT_PATH
 
 RUN go build -v -o /ether-swarm-cache main.go
 
-ENTRYPOINT ["/ether-swarm-cache", "--host", "0.0.0.0", "--port", "8090"]
+EXPOSE 8091
 
+ENTRYPOINT ["/ether-swarm-cache", "--host", "0.0.0.0", "--port", "8091"]
